@@ -1,0 +1,6 @@
+
+<h1>Liste des auteurs</h1>
+
+<ul>
+	<li *ngFor = "let auteur of auteurs"><a routerLink="/auteur/{{ auteur.id }}">{{ auteur.prenom }} à {{ auteur.age }} ans</a></li>
+</ul>
